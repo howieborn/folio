@@ -1,0 +1,29 @@
+<%= render 'layouts/webhome' %>
+
+	<div class="leftCol">
+
+	<div class="aboutText">
+		<h3>"I Am What I Am"</h3>
+		<p>Mark Howard aka howie born is a web designer, developer and programmer. </br>
+		I Studied Information Technology majoring in Information Systems at the University of Queensland. </br>
+		If i'm not solving web design problems or reading about new and creative ideas and techniques, 
+		then you can usually find me strumming away on my guitar or making loops on my computer. </br>
+		I also love spending time outdoors doing some form of sporting activity, surfing, snowboarding, etc. 
+		Not too big into watching TV, but would rather chat to mates or read a good book. </p>
+	</div>
+		
+
+	  <div class="interestList">		<h3>Interests</h3>				<ul>
+			<li>Snowboarding, surfing, pretty much most sports.</li>
+			<li>Guitar</li>
+			<li>Reading</li>
+			<li>Architectural Design</li>
+			<li>Travelling</li>
+			<li>Web Surfing</li>
+			<li>Most Things to do with Computers</li>
+			</ul>
+	  </div></div>
+	 <div class="rightCol">
+	</div>
+
+

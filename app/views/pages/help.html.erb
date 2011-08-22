@@ -1,0 +1,117 @@
+
+<h3>Website Construction Helper</h3>
+<nav class="round">
+  <ul>
+    <li><%= link_to "Checklist", help_path(:anchor => "checklist")%>
+    <li><%= link_to "Style Guide", help_path(:anchor => "style")%>
+	<li><%= link_to "Navigation", help_path(:anchor => "nav")%>
+	<li><%= link_to "Data Models", help_path(:anchor => "datamodels")%>
+	<li><%= link_to "Model Relationships", help_path(:anchor => "modelrel")%>
+  </ul>
+</nav>
+<h3><a name="checklist">Checklist</a></h3><br>
+<ul>
+<li>Complete Home Page</li>
+	<ul>
+	  <li>Add client login box</li>
+	  <li>Write 300 words on Purpose/Mission, About Yourself, Web design etc.</li>
+	  <li>Complete Homepage content.</li>
+	  <li>Complete Images</li>
+	  <li>Complete Links</li>
+	  <li>Complete Path login as admin_user</li>
+	  <li>Complete Path login as client<li>
+	</ul>
+<li> PAGE: page_name</li>
+	<ul>
+	  <li>Address Feature: (example)</li>
+	  <li>Write content</li>
+	  <li>Complete links</li>
+	  <li>Images</li>
+	</ul>
+	  
+</ul>
+
+<h3><a name="style">Style Guide</a></h3>
+<p>
+<h4>COLORS :</h4>
+<br>
+3399cc - Ocean Blue<br>
+333333 - Almost Black<br>
+6666cc - Light Violet<br>
+00cccc - Turquoise<br>
+33cc99 - Dark Aqua<br>
+FFFF99 - Creamy Yellow<br>
+FF6600 - Bright Orange<br>
+003399 - Nice velvet blue<br>
+</p>
+<p>
+<br>
+<h5>Navigation</h5>
+<br>
+MENU ITEMS<br>
+ - Who we Are<br>
+ - What We Do<br>
+ - How We Work<br>
+ - Get In Touch<br>
+</p>
+<br>
+<h5><a name="datamodels">Data Models</a></h5>
+<br>
+<p>
+DATA MODEL	for News
+	- id
+	- title
+	- body
+	- created_at
+	- updated_on
+	- 
+</p>			
+DATA MODEL for Post
+	- id			(Primary Key, auto_increment)
+	- title
+	- body
+	- type
+	- created_at
+	- updated_on
+	
+DATA MODEL for Article
+	- id
+	- title
+	- author
+	- 
+	
+<br>
+<p>
+<h5><a name="modelrel">Model Relationships</a><h5><br>
+
+Actor --> Admin<br>
+Actor --> Clients<br>
+<br>
+
+Process --> <strong>Admin</strong> > Log in > All Access Granted > Admin Home > @CRUD Resume > Log out<br>
+															 > @CRUD Clients<br>
+															 > @CRUD News<br>
+															 > @CRUD Articles<br>
+															 > @CRUD Resources<br>
+															 > @CRUD Tutorials<br>
+															 > @Projects<br>
+															 > @Skills<br>
+															 > @CheckStats<br>
+															 > @Maintenance<br>
+															 > @ViewSite<br>
+<br>
+Process --> <strong>Clients</strong> > View Site #Restricted > View News<br>
+											> View Articles<br>
+											> View Resources<br>
+											> View Tutorials<br>
+											> View About<br>
+											> View Contact<br>
+					> Log In > Extra access > View Projects<br>
+										    > View Resume<br>
+											> View Skills<br>
+					
+Relationships:<br>
+Only 1 client can be Admin.<br>
+News has many comments<br>
+articles has many comments<br>
+

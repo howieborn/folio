@@ -1,0 +1,15 @@
+<%= render 'layouts/webhome' %>
+<div class="leftCol">
+<h3>Contact Details</h3>
+<strong>mobile:</strong> 0422171468
+</br></br>
+<strong>email:</strong> howieborn@gmail.com
+</br></br>
+<strong>address:</strong> Auchenflower, Brisbane, Australia.
+</br></br>
+<h3>Send Me An Email</h3>
+<%= render 'shared/contact_form' %>
+
+</div>
+
+

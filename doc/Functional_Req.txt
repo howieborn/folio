@@ -1,0 +1,3 @@
+Requirements Doc for Howie Born Portfolio
+REQUIREMENT								FEATURE
+1. Keep information current				Provide an easy to use administrative interface

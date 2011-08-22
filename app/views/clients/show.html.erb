@@ -1,0 +1,16 @@
+<h3>Welcome <%= @heading %></h3>
+<br />
+Display Client Details<br />
+Username: <%= @heading %><br />
+Email address: someemail@job.com.au <%= link_to "add/edit" %><br /><br />
+
+
+What would you like to do with this client:<br />
+<br>
+	<ul>
+	  <li><%= link_to "Change Client Details", %></li>
+	  <li><%= link_to "Remove Client", %></li>
+	  <li><%= link_to "Contact Client", %></li>
+	  <li>etc..</li>
+<br><br>
+	<%= link_to "Return to Admin Page", admin_path %>

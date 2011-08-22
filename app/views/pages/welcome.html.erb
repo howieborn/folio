@@ -1,0 +1,26 @@
+<div class="welcomeContainer">
+  <div class="welcomeContent">
+	<div class="welcomeText">
+	<% logo = image_tag("logo.png", :alt => "logo", :height => "100px", :class => "welcomeLogo") %>
+    <%= link_to logo, root_path %>
+		<div class="followme">
+		<p><br><h3>Creative Consultant</h3><br>Follow me on:
+		<ul>
+		<li>Facebook</li>
+		<li>Twitter</li>
+		<li>etc..</li>
+		</ul></p>
+		</div>
+	</div>
+	<div class="welcomeWebhomeLink welcomeCircle">
+	<center>
+    <% webhome = image_tag("webhome.png", :class => "webhome") %>
+    <%= link_to webhome, webhome_path %>
+	</center>
+	</div>
+	<div class="welcomeMusichomeLink welcomeCircle">
+	<center>
+	<% musichome = image_tag("musichome.png", :class => "musichome") %>
+    <%= link_to musichome, musichome_path %>
+	</center>
+	</div>

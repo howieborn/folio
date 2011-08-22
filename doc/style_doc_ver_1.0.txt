@@ -1,0 +1,38 @@
+COLORS :
+
+3399cc - Ocean Blue
+333333 - Almost Black
+6666cc - Light Violet
+00cccc - Turquoise
+33cc99 - Dark Aqua
+FFFF99 - Creamy Yellow
+FF6600 - Bright Orange
+003399 - Nice velvet blue
+
+MENU ITEMS
+ - Who we Are
+ - What We Do
+ - How We Work
+ - Get In Touch
+ 
+DATA MODEL	for News
+	- id
+	- title
+	- body
+	- created_at
+	- updated_on
+	- 
+			
+DATA MODEL for Post
+	- id			(Primary Key, auto_increment)
+	- title
+	- body
+	- type
+	- created_at
+	- updated_on
+	
+DATA MODEL for Article
+	- id
+	- title
+	- author
+	- 

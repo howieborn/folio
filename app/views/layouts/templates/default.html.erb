@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title><%= page_title %></title>
+	<%= render :partial => "partials/stylesheets" %>
+	<%= render :partial => "partials/scripts" %>
+	<%= yield :html_head %>
+  </head>
+  <body>
+    <%= cms_toolbar %>
+    <div id="wrapper" class="container">
+	
+		<nav class="hor">
+		   <%= render_menu %>
+		</nav>
+		<div class="welcomeLayout">
+				
+			<div class="welcomeContent">
+				<%= image_tag("logo.png", :alt => "logo", :height => "100px", :class => "welcomeLogo") %>
+				<%= container :followme %>
+			</div>
+				
+			<div class="welcomeWebhomeLink welcomeCircle">
+				<center>
+				<%= image_tag("rails.png", :class => "webhome") %>
+				</center>
+			</div>
+				
+			<div class="welcomeMusichomeLink welcomeCircle">
+				<center>
+				<%= image_tag("rails.png", :class => "musichome") %>
+				</center>
+			</div>
+			
+		</div>
+	</div>
+	   <%= container :footer %>
+  </body>
+</html>
