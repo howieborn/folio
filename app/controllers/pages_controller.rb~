@@ -5,8 +5,12 @@ class PagesController < ApplicationController
   end
   
   def webhome
-    @title = "Web design Home Page"
+   @title = "Howie Born - Web Design and Development Home Page"
 	@heading = "Web Design"
+  end
+  
+  def about
+  	@heading = "Bio"
   end
   
   def admin

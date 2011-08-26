@@ -10,7 +10,12 @@
 
 <script type="text/javascript">
 
-	$('#slider1').bxSlider();
+	$(function(){
+  	$('#slider1').bxSlider({
+    infiniteLoop: false,
+    hideControlOnEnd: true
+  		});
+	});
   
     $(function () {
     var tabContainers = $('div.panel > div');

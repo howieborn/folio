@@ -5,11 +5,12 @@ class PagesController < ApplicationController
   end
   
   def webhome
-    @title = "Web design Home Page"
+   @title = "Howie Born - Web Design and Development Home Page"
 	@heading = "Web Design"
   end
   
   def about
+   @title = "About Howie Born"
   	@heading = "Bio"
   end
   
@@ -27,15 +28,15 @@ class PagesController < ApplicationController
   end
   
   def projects
-    @title = "Projects"
+    @title = "Sample Projects"
   end
   
   def resume
-    @title = "Resume"
+    @title = "Online Resume For Howie Born"
   end
   
   def contact
-    @title = "Contact Me"
+    @title = "Contact Howie Born"
   end
   
   def resources
