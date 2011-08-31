@@ -244,9 +244,9 @@ label {
 }
 #skill{
 	display: inline;
-	width:30%;
+	width:29%;
 	float:left;
-	padding-left: 20px;
+	padding-left: 10px;
 	text-align: center;
 }
 #skill #heading{
@@ -284,14 +284,14 @@ label {
  * Slideshow style rules.
  */
 #slider1{
-	width:90%;
+	width:95%;
 	height:auto;
 	float:left;
 	text-align: center;
 }
 .bx-next {
 	position:absolute;
-	top:100px;
+	top:80px;
 	right:0px;
 	z-index:999;
 	width: 30px;
@@ -302,7 +302,7 @@ label {
 /*previous button*/
 .bx-prev {
 	position:absolute;
-	top:100px;
+	top:80px;
 	left:0px;
 	z-index:999;
 	width: 30px;
