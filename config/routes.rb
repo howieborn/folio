@@ -1,10 +1,9 @@
 Portfolio::Application.routes.draw do
   resources :comments
-
   resources :posts
-
   resources :clients
   resources :sessions, :only => [:new, :create, :destroy]
+  resources :contacts, :only => [:new, :create]
 
   match '/signup',  :to => 'clients#new'
   match '/signin',  :to => 'sessions#new'
@@ -17,12 +16,11 @@ Portfolio::Application.routes.draw do
   match '/about',   :to => 'pages#about'
   match '/resume',   :to => 'pages#resume'
   match '/projects',    :to => 'pages#projects'
-  match '/contact', :to => 'pages#contact'
   match '/skills', 		:to => 'pages#skills'
   match '/resources', 	:to => 'pages#resources'
   match '/tutorials', 	:to => 'pages#tutorials'
   match '/help',    :to => 'pages#help'
-  match '/email',		:to => 'application#send_mail'
+  match '/contacts', :to => 'contacts#new'
 
 
   root :to => 'pages#webhome'

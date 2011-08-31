@@ -31,13 +31,17 @@ h5 {
 	margin:1px;
 	position: inherit;
 }
+.flash{
+	text-align: center;
+	line-height: 40px;
+}
 @font-face {
     font-family: "helsinki";
     src: url(helsinki.ttf);
 }
 @font-face {
     font-family: "crimson";
-    src: url(Crimson-Roman.ttf);
+    src: url(Crimson-Roman-webfront.ttf);
 }
 /* Header */
 div.webhomeHeader {
@@ -118,6 +122,7 @@ nav {
   float: left;
   width:200px;
   z-index:10;
+  height:auto;
 }
 nav {
   background-color:transparent;
