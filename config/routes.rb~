@@ -2,7 +2,7 @@ Portfolio::Application.routes.draw do
   resources :comments
 
   resources :posts
-
+  resources :contacts, :only => [:new, :create]
   resources :clients
   resources :sessions, :only => [:new, :create, :destroy]
 
@@ -17,7 +17,7 @@ Portfolio::Application.routes.draw do
   match '/about',   :to => 'pages#about'
   match '/resume',   :to => 'pages#resume'
   match '/projects',    :to => 'pages#projects'
-  match '/contact', :to => 'pages#contact'
+  match '/contacts', :to => 'contacts#new'
   match '/skills', 		:to => 'pages#skills'
   match '/resources', 	:to => 'pages#resources'
   match '/tutorials', 	:to => 'pages#tutorials'
