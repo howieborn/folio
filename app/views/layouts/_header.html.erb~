@@ -1,5 +1,0 @@
-      <div class="webhomeHeader">
-			<% logo = image_tag("logo.png", :alt => "howieborn", :class => "logo", :height => "70px") %>
-			<%= link_to logo, root_path %></br>
-			<span id="tag">creative consultant</span>
-      </div>
