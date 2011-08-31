@@ -91,20 +91,17 @@ padding-left:15%;
 	float:left;
 	margin-left:10%;
 }
-div.webhomeContainer {
-	display:inline;
-}
 div.webhomeMenu {
 position:relative;
 height:auto;
-width:auto;
+width:20%;
 float:left;
 }
 div.webhomeContent {
 position:relative;
 min-height:500px;
 height: auto;
-width:75%;
+width:70%;
 background:transparent;
 float:right;
 z-index:2;
@@ -182,7 +179,7 @@ label {
     }
 .button{
     float: right;
-    margin: 10px 230px 10px 0;
+    margin: 10px 180px 10px 0;
     font-weight: bold;
     line-height: 1;
     padding: 6px 10px;
