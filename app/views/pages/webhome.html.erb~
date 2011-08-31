@@ -1,9 +1,0 @@
-   <%= render 'layouts/webhome' %>
-	<div class="leftCol">		  <div class="welcomeMsg"> <h3>Hello and Welcome...</h3>			<p>
-		Hi, I'm a web designer, developer and programmer. I like to design websites using different and ever changing technologies.
-		I like to solve problems relating to the web from interaction design and usability, to providing business and professional solutions for people and companies from all walks of life.
-		<br /><br />
-		
-		This website has been specifically set up to provide resources and let prospective employers and clients view some of my current projects.</p>
-	  </div  			</div>
-		
