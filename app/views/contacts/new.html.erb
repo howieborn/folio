@@ -1,0 +1,30 @@
+<%= render 'layouts/webhome' %>
+<div class="leftCol">
+<h3>Contact Details</h3>
+<strong>mobile:</strong> 0422171468
+<br /><br />
+<strong>email:</strong> <a href="mailto:howieborn@gmail.com?Subject=Msg%20From%20Howie%20Born%20Website"> howieborn@gmail.com</a>
+<br /><br />
+<strong>address:</strong> Auchenflower, Brisbane, Australia.
+<br /><br />
+<h3>Send Me An Email</h3>
+<%= form_for @contact, :id => 'contact_form', :url => contacts_path do |f| %>
+  <div class="field">
+	<%= f.label :name %>
+	<%= f.text_field :name %>
+  </div>
+  <div class="field">
+	<%= f.label :email %>
+	<%= f.text_field :email %>
+  </div>
+  <div class="field">
+	<%= f.label :subject %>
+	<%= f.text_field :subject %>
+  </div>
+  <div class="field">
+	<%= f.label :message %>
+	<%= f.text_area :message %>
+  </div>
+  <%= f.submit "send", :id => 'submit_email', :class => 'button' %>
+<% end %>
+</div>
